@@ -239,11 +239,6 @@ nav.container {
     border-radius: inherit;
     border: 3px solid var(--bg-color);
     display: block;
-    object-position: center 65%;
-    /* Shifting face further left within the circle */
-    /* Centering the face */
-    transform: scale(1.5) translateX(-55px);
-    /* Zooming in more on the face */
 }
 
 .image-glow {
