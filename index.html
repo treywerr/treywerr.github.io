@@ -1,14 +1,162 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trey Werr | Senior Software Engineer – Real-Time & Simulation Systems</title>
+    <meta name="description"
+        content="Portfolio of Trey Werr, a Senior Software Engineer specializing in real-time, multi-user simulation systems, Unity, and XR.">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
 
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta http-equiv='refresh' content="0; url='https://treywerr.github.io/simulation-1.html'" />
-	</head>
+<body>
+    <header id="header">
+        <nav class="container">
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="https://github.com/treywerr?tab=repositories" target="_blank" rel="noopener" class="social-icon"
+                    title="GitHub">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 0 0-.94 2.58V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/charles-werr-8b0290246/" target="_blank" rel="noopener" class="social-icon"
+                    title="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="src/Resume.pdf" download class="social-icon" title="Resume">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="12" y1="18" x2="12" y2="12"></line>
+                        <polyline points="9 15 12 18 15 15"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
 
-	<body>
-		<h3 class='title'>Redirecting to propagation simulation...</h3>
-	</body>
+    <main>
+        <section id="hero">
+            <div class="hero-background" id="hero-canvas-container"></div>
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="reveal">Trey Werr</h1>
+                    <h2 class="reveal">Senior Software Engineer</h2>
+                    <h3 class="reveal">Real-Time & Simulation Systems</h3>
+                    <p class="subtitle reveal">I build real-time systems that power interactive experiences.</p>
+                    <div class="cta-buttons reveal">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact</a>
+                        <a href="src/Resume.pdf" download class="btn btn-secondary">Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal">
+                    <div class="profile-image-container">
+                        <img src="public/profile.jpg" alt="Trey Werr" class="profile-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">About</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>6+ years building and shipping real-time simulation systems. Core contributor and technical
+                            lead on commercial multi-user VR platforms.</p>
+                        <p>Specializing in modular architecture, multi-user synchronization, and performance
+                            optimization for complex interactive environments. I thrive at the intersection of systems
+                            engineering and spatial computing.</p>
+                        <p>Currently seeking a Senior Individual Contributor role in a stable engineering organization
+                            where I can apply my expertise in architecting high-fidelity simulations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Selected Projects</h2>
+                <div class="projects-grid" id="projects-container">
+                    <!-- Projects will be injected here via JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Technical Expertise</h2>
+                <div class="skills-grid" id="skills-container">
+                    <!-- Skills will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-dark">
+            <div class="container">
+                <h2 class="reveal">Let’s Connect</h2>
+                <p class="reveal">Open to Senior Software Engineer opportunities focused on real-time, simulation, or
+                    interactive systems.<br>
+                    If you'd like to discuss engineering collaboration, system architecture, or potential roles, feel
+                    free to reach out.</p>
+                <div class="contact-links reveal">
+                    <a href="mailto:treywerr@gmail.com" class="contact-link">
+                        Email (treywerr@gmail.com)
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/charles-werr-8b0290246/" target="_blank" rel="noopener" class="contact-link">
+                        LinkedIn
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <video id="lightbox-video" controls style="display:none;"></video>
+            <div id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
 
 </html>
