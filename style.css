@@ -4,7 +4,7 @@
     --bg-card: #1a1a1a;
     --text-primary: white;
     --text-secondary: #a0a0a0;
-    --accent-color: #00d4ff;
+    --accent-color: #ffae00;
     --accent-glow: rgb(from var(--accent-color) r g b / 0.3);
     --accent-hover: rgb(from var(--accent-color) r g b / 0.05);
     --border-color: #333333;
@@ -48,8 +48,6 @@ h4,
 section {
     padding: 100px 0;
 }
-
-
 
 .bg-dark {
     background-color: #050505;
@@ -120,6 +118,28 @@ nav.container {
 .btn-outline-sm:hover {
     background: var(--accent-hover);
     box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.brand {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    /*font-family: var(--ff-display);*/
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    color: var(--text-primary);
+}
+
+.brand-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    box-shadow: 0 0 12px var(--accent-color);
+    flex: 0 0 auto;
 }
 
 .nav-links {
