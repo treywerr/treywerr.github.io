@@ -6,23 +6,23 @@ const projects = [
         summary: 'A modular multi-user VR training platform supporting authentication, licensing, persistence, analytics, and real-time procedural simulation.',
         role: 'Senior Software Engineer | Research & Development',
         techStack: ['Unity', 'C#', 'HLSL', 'OpenXR', 'Netcode'],
-        image: 'public/Teo.png', // TODO
-        video: null, // TODO
+        image: 'public/Teo.jpg',
+        video: 'public/TeoVideo.mp4',
         keyContributions: [
+            'Conducted in-depth research to implement new features and systems.',
+            'Implemented voxel- and CSG-based procedural simulation for realistic surgical feedback.',
             'Performed performance profiling and optimization targeting standalone VR hardware constraints.',
-            'Designed multi-user state synchronization architecture for high-fidelity training.',
-            'Built persistent save-state and replay system for educational review.',
-            'Implemented voxel-based procedural simulation for realistic surgical feedback.',
-            'Integrated production error reporting and analytics for enterprise stability.'
+            'Designed unified data serialization system for use in multi-user networking, save-state, and replay systems.',
+            'Created developer tools for debugging, error reporting, and analytics to save on development time.'
         ]
     },
     {
         id: 'raytracer',
         title: 'Raytracer',
-        summary: 'Custom raytracing renderer, implemented in Unity. Can handle complex models, multiple surface materials and textures, and accurately handles reflection and refraction.',
+        summary: 'Custom raytracing renderer implemented in Unity. Can render complex models with multiple surface materials and textures and accurately simulates reflection and refraction.',
         role: 'Sole Developer',
         techStack: ['HLSL', 'C#', 'Rendering', 'Unity'],
-        image: 'public/RaytraceDragonSphere.png', // TODO: Two images
+        image: 'public/RaytraceSponzaMirror.png', // TODO: Two images
         video: null,
         url: null,
         keyContributions: [
@@ -34,16 +34,16 @@ const projects = [
     {
         id: 'uncertainty-propagation',
         title: 'Uncertainty Propagation (2021)',
-        summary: 'An interactive browser-based tool that demonstrates propagation of uncertainty using graphs.',
-        role: 'Sole Developer',
-        techStack: ['JavaScript', 'HTML', 'Education', 'Graphing'],
+        summary: 'An educational browser-based tool that illustrates propagation of uncertainty using interactive graphs.',
+        role: 'Sole Developer | Researcher',
+        techStack: ['JavaScript', 'HTML', 'Education', 'Academic Research'],
         image: 'public/uncertainty-propagation.png',
         video: null,
         url: 'UncertaintyPropagation/simulation-1.html',
         keyContributions: [
-            'Worked with professor to identify areas students struggled.',
-            'Created visual design and content.',
-            'Conducted research on a group of volunteers to gauge effectiveness of developed tool.'
+            'Worked with a professor to develop a research plan to test whether this interactive tool could aid students in an area where they struggled.',
+            'Conducted interviews with volunteers to gather data on the effectiveness of the tool. ',
+            'Performed multiple rounds of interview coding in collaboration with the professor to convert interview transcripts to numerical data.'
         ]
     },
     {
