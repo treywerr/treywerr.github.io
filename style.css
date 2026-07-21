@@ -72,15 +72,13 @@ header.scrolled {
 
 nav.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     min-height: 40px;
 }
 
 .header-actions {
-    position: absolute;
-    right: 0;
     display: flex;
     gap: 1.25rem;
     align-items: center;
@@ -121,12 +119,9 @@ nav.container {
 }
 
 .brand {
-    position: absolute;
-    left: 0;
     display: flex;
     align-items: center;
     gap: 11px;
-    /*font-family: var(--ff-display);*/
     font-weight: 600;
     font-size: 16px;
     letter-spacing: -0.01em;
@@ -228,7 +223,6 @@ nav.container {
 .hero-content {
     position: relative;
     z-index: 10;
-    padding-right: 2rem;
 }
 
 .hero-image-wrapper {
@@ -247,10 +241,6 @@ nav.container {
     background: linear-gradient(135deg, var(--accent-color), transparent);
     box-shadow: 0 0 50px var(--accent-glow);
     overflow: hidden;
-    margin-top: 20px;
-    /* Moving the circle down */
-    margin-left: 20px;
-    /* Moving the circle right */
 }
 
 .profile-image {
@@ -300,6 +290,7 @@ nav.container {
     font-size: 1.2rem;
     color: var(--text-secondary);
     margin-bottom: 3.5rem;
+    text-align: left;
     border-left: 2px solid var(--accent-color);
     padding-left: 1.5rem;
 }
@@ -310,7 +301,9 @@ nav.container {
 }
 
 .btn {
-    padding: 0.8rem 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
